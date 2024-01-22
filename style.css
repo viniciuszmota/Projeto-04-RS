@@ -4,14 +4,21 @@
   box-sizing: border-box;
 }
 
+:root{
+  font-size: 62.5%; /*10px*/
+}
+
+/* REM = Root EM - Unidedade de medida relativa para acessibilidade */
+
 body {
   background: #ece9fd;
 
-  padding: 60px 23px 66px;
+  padding: 6.0rem 2.3rem 6.6rem;
 }
 
 h1 {
   font-family: "Epilogue", sans-serif;
+  font-size: 4.0rem;
 }
 
 ul {
